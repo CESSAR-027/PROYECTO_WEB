@@ -10,13 +10,14 @@
     
 
 
-    <title> LA PAPELERIA LP</title>
+    <title> LP PAPELERIA  | LP</title>
     
     @include('template.css')
 
   </head>
 
   <body>
+   
 
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">

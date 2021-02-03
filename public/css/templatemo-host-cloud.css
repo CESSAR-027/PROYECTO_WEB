@@ -216,7 +216,8 @@ header {
 }
 
 .background-header {
-	background-color: #fff!important;
+	/*background-color: red!important;*/
+	background-image: url(../images/menu.jpg);
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
@@ -227,11 +228,11 @@ header {
 }
 .background-header .functional-buttons	ul li:first-child a {
 	display: inline-block;
-	background-color: #F76826;
-	border: 2px solid #0A0808;
+	background-color: transparent;
+	border: 2px solid #F76826;
 	text-transform: uppercase;
 	font-size: 13px;
-	color: #0A0808;
+	color: #F76826;
 	padding: 6px 20px;
 	letter-spacing: 0.5px;
 	transition: all 0.5s;
@@ -239,16 +240,16 @@ header {
 .background-header .functional-buttons	ul li:first-child a:hover {
 	color: #F76826;
 	background-color: #000000;
-	border-color: #000000;
+	border-color: transparent;
 }
 
 .background-header .functional-buttons	ul li:last-child a {
 	display: inline-block;
-	background-color: #F76826;
-	border: 2px solid #0A0808;
+	background-color: transparent;
+	border: 2px solid #F76826;
 	text-transform: uppercase;
 	font-size: 13px;
-	color: #0A0808;
+	color: #F76826;
 	padding: 6px 20px;
 	letter-spacing: 0.5px;
 	transition: all 0.5s;
@@ -256,7 +257,7 @@ header {
 .background-header .functional-buttons	ul li:last-child a:hover {
 	color: #F76826;
 	background-color: #000000;
-	border-color: #000000;
+	border-color: transparent;
 }
 .background-header .navbar-nav .nav-link:hover,
 .background-header .navbar-nav .active>.nav-link,
@@ -279,7 +280,7 @@ header {
 	width: 100px;
 	background-color: #F76826;
 	border-radius: 6px;
-	border: 2px solid #000000;
+	border: 2px solid transparent;
 
 }
 
@@ -389,18 +390,10 @@ header {
 	color: #080505;
 	background-color: #F76826;
 
-	border-color: #080505;
+	
 }
 .functional-buttons	ul li:last-child a {
-	/*display: inline-block;
-	background-color: #00bcd4;
-	border: 2px solid #00bcd4;
-	text-transform: uppercase;
-	font-size: 13px;
-	color: #fff;
-	padding: 6px 20px;
-	letter-spacing: 0.5px;
-	transition: all 0.5s;*/
+	
 	display: inline-block;
 	background-color: transparent;
 	border: 2px solid #F76826;
@@ -419,7 +412,7 @@ header {
 	border-color: #00a4b9;*/
 	color: #080505;
 	background-color: #F76826;
-	border-color: #080505;
+	
 }
 
 
